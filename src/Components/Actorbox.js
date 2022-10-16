@@ -27,7 +27,6 @@ function ActorsBox(props){
                       </div>
                     )}
                     <div className="rating-div"></div>
-            <h4>ID : {item.id}</h4>
              <h3>{item.name}</h3>
         </div> 
     );

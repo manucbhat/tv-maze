@@ -12,7 +12,7 @@ function Showbox(props){
                 src={item.image.medium}
                 class="poster"
                 alt={
-                item.name != null ? item.name : "Not found"
+                item.name != null ? item.name : "Not found! Try Different KeyWord"
                     }
                 />
                 </a>
@@ -25,7 +25,7 @@ function Showbox(props){
             
              <h3>{item.name}</h3>
              <p>{item.language}</p>
-             <p>Runtime : {item.averageRuntime} Minutes</p> 
+             <p>length : {item.averageRuntime} Minutes</p> 
         </div>
     );
 }
