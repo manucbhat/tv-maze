@@ -20,10 +20,8 @@ const Search = () => {
        
     }
 
-    
-
     return (
-        <>
+        <div>
             <section className="main-div">
              <div className="front-div-1">
                  <div className="front-div-2">
@@ -40,7 +38,7 @@ const Search = () => {
                                 value={Val}
                                 onChange={(e) => setVal(e.target.value)}
                                 className="input-data"
-                                placeholder="Eg: Akon.."
+                                placeholder="Type here to search"
                             />
                             </div>
                     </div>
@@ -51,7 +49,7 @@ const Search = () => {
         {show ? <Show data={Val} /> : ""}
 
         <div className='footer-div'>Made with &hearts; by Manu C Bhat!</div>
-        </>
+        </div>
     )
 }
 

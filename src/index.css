@@ -21,6 +21,7 @@ html{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ 
 }
 .front-div-2{
   width: 850px;
@@ -28,6 +29,7 @@ html{
   margin-left: 30px;
   background-color: mediumpurple;
   opacity: 0.8;
+  border-radius: 25px 25px 25px 25px;
 }
 .front-div-3{
   width: 850px;
@@ -69,7 +71,7 @@ html{
   font-size: 18px;
 }
 .footer-div{
-  width: inherit  ;
+  width: 1430px;
   height: 30px;
   background-color: black ;
   display:flex;
@@ -79,9 +81,6 @@ html{
   color: white;
 }
 
-.heart{
-  color: red;
-}
 
 /* Responsive Style in TVmaze */
 
