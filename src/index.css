@@ -24,9 +24,10 @@ html{
  
 }
 .front-div-2{
-  width: 850px;
-  height: 345px;
-  margin-left: 30px;
+  width: 1000px;
+  height: 450px;
+  margin-left:0px;
+  z-index: auto;
   background-color: mediumpurple;
   opacity: 0.8;
   border-radius: 25px 25px 25px 25px;
@@ -40,22 +41,33 @@ html{
 .front-div-3 .tvmaze{
   color: white;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
   margin: 0%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
+  font-style: oblique;
+}
+
+.tvmaze{
+  text-decoration: wavy;
 }
 .front-div-3 .search{
   color: white;
   font-size: 35px;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
   margin: 0%;
   font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
 .radio-div{
   margin: 30px 0px;
 }
 .show-input{
   margin-left: 30px;
+ 
 }
 .actor-span, .show-span{
   color: white;
@@ -66,9 +78,10 @@ html{
   height: 30px;
   border: none;
   outline: none;
-  border-radius: 10px;
+  border-radius: 100px;
   padding: 5px;
   font-size: 18px;
+  
 }
 .footer-div{
   width: 1430px;
@@ -81,6 +94,11 @@ html{
   color: white;
 }
 
+.heart{
+  color: red;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
 
 /* Responsive Style in TVmaze */
 
