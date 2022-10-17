@@ -23,8 +23,8 @@ function Actor(props) {
     }
   };
   useEffect(() => {
-    getActorsData();
-  }, [inputVal]);
+    getActorsData()
+},[inputVal]);
 
   return (
     <>
